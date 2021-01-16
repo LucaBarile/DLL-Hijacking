@@ -3,17 +3,6 @@
 
 void payload()
 {
-    /*
-    DWORD pid = GetCurrentProcessId();
-    MessageBoxA(NULL, "Hello!", "PID", MB_OK);
-    */
-
-	/*
-    STARTUPINFO info = { sizeof(info) };
-    PROCESS_INFORMATION processInfo;
-    CreateProcess(L"(C:\Windows\System32\cmd.exe)", NULL, NULL, NULL, TRUE, CREATE_DEFAULT_ERROR_MODE, NULL, NULL, &info, &processInfo);
-	*/
-	
 	STARTUPINFO si;
 	PROCESS_INFORMATION pi;
 		  
